@@ -6,6 +6,46 @@
     -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
     box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
     border-radius: 0.5rem;
-    height: 8rem;
+    height: 6rem;
+
+    .left, .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .title{
+        font-weight: 500;
+        font-size: 1rem;
+        color: #d1d1d1;
+    }
+    .counter{
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
+    .link{
+        width: max-content;
+        font-size: 0.7rem;
+        border-bottom: 1px solid #333;
+    }
+    .percentage{
+        display: flex;
+        align-items: center;
+        font-size: 0.7rem;
+
+        &.positive{
+            color: green;
+
+        }
+        &.negative{
+            color: red;
+        }
+    }
+    .icon{
+        font-size: 1rem;
+        padding: 5px;
+        // background-color: rgba(128, 0, 128, 0.541);
+        border-radius: 0.3rem;
+        align-self: flex-end;
+    }
 
 }
