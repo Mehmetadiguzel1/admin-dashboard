@@ -3,6 +3,7 @@ import Avatar from '../../img/Girl3.jpg'
 import Navbar from '../../components/navbar/Navbar'
 import Sidebar from '../../components/sidebar/Sidebar'
 import Chart from '../../components/chart/Chart'
+import List from '../../components/table/Table'
 import './signle.scss'
 const Single = () => {
   return (
@@ -46,7 +47,10 @@ const Single = () => {
 
 
 
-        <div className="bottom"></div>
+        <div className="bottom">
+          <h1 className="title">Last Transactions</h1>
+          <List/>
+        </div>
       </div>
     </div>
   )
