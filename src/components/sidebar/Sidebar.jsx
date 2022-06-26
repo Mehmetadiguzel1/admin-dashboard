@@ -21,7 +21,7 @@ const Sidebar = () => {
     <div className="sidebar">
       <div className="top">
         <Link to="/" style={{textDecoration:"none"}}>
-          <span className='logo'>Kekoadmin</span>
+          <span className='logo'>ILAC</span>
         </Link>
         </div>
       <hr />
@@ -38,23 +38,20 @@ const Sidebar = () => {
           <Link to="/users" style={{textDecoration:"none"}}>
             <li>
               <PersonOutlineOutlinedIcon className='icon'/>
-              <span>Users</span>
+              <span>Student</span>
             </li>
           </Link>
           <Link to="/products" style={{textDecoration:"none"}}>
             <li>
               <Inventory2OutlinedIcon className='icon'/>
-              <span>Products</span>
+              <span>Books</span>
             </li>
           </Link>
           <li>
             <CreditCardOutlinedIcon className='icon'/>
             <span>Orders</span>
           </li>
-          <li>
-            <LocalShippingOutlinedIcon className='icon'/>
-            <span>Delivery</span>
-          </li>
+
           <p className="title">USEFUL</p>
           <li>
             <AssessmentIcon className='icon'/>
@@ -77,7 +74,7 @@ const Sidebar = () => {
             <SettingsOutlinedIcon className='icon'/>
             <span>Settings</span>
           </li>
-          <p className="title">USER</p>
+          <p className="title">User</p>
           <li>
             <AccountCircleOutlinedIcon className='icon'/>
             <span>Profile</span>

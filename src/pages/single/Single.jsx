@@ -14,7 +14,7 @@ const Single = () => {
         <div className="top">
           <div className="left">
             <div className="editButton">Edit</div>
-            <h1 className='title'>User Information</h1>
+            <h1 className='title'>Student Information</h1>
             <div className="item">
               <img src={Avatar} alt="" className="itemImg" />
               <div className="details">
